@@ -1,0 +1,261 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+}
+
+.box div { 
+    height: 100vh;
+}
+
+#nav {
+    background-color: #C5B797;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    font-family: Euclid, sans-serif;
+    color: white;
+    font-weight: bolder;
+    display:flex;
+    align-items: center;
+}
+
+#navbuttons {
+    display: flex;
+    align-self: center;
+    height: auto;
+    margin: auto;
+}
+
+#individualbutton {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #C5B797;
+    font-family: Euclid;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#individualbutton:hover {
+    background-color:#BCAF91;
+    transform: translateY(-1px);
+}
+
+#individualbutton:active {
+    background-color:#BCAF91;
+    transform: translateY(2px);
+}
+#logosection {
+    background-color: white;
+    font-family: Euclid, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#shibatextlogo {
+    letter-spacing:0;
+    font-size: 80px;
+}
+
+#logopurchase {
+    border: 0;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logoviewmore {
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+    background-color:white;
+    cursor: pointer;
+}
+
+#logopurchase:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px gray;
+}
+
+#logopurchase:active {
+    transform: translateY(2px);
+}
+
+#logoviewmore:hover {
+    transform: translateY(-1px);
+    color: #8B8986;
+}
+
+#logoviewmore:active {
+    transform: translateY(2px);
+}
+
+#productsection {
+    background-color: white;
+    font-family: Euclid, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 80px;
+}
+
+#products {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#productone {
+    margin:20px;
+    background-color: lightgray;
+    width:280px;
+    height: 610px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#producttwo {
+    margin: 20px;
+    background-color: lightgray;
+    width:280px;
+    height: 610px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#productthree {
+    margin: 20px;
+    background-color: lightgray;
+    width:280px;
+    height: 610px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#purchasebutton {
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #C5B797;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 85px;
+    padding-right: 85px;
+    cursor: pointer;
+}
+
+#purchasebutton:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px gray;
+}
+
+#purchasebutton:active {
+    transform: translateY(2px);
+}
+
+#faqsection {
+    background-color: white;
+    font-family: Euclid, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top:80px;
+    line-height: 0.8;
+}
+
+#haveaq {
+    text-align:center;
+    font-size:15px;
+}
+
+#questionbutton {
+    border: 0px;
+    background: white;
+    color: #898888;
+    font-size: 40px;
+    font-weight: bold;
+    align-self: flex-start;
+    cursor:pointer;
+    padding-top: 25px;
+    padding-left: 150px
+}
+
+#questionbutton:hover {
+    color:black;
+}
+
+#stillneedhelp {
+    border: 0px;
+    background:white;
+    font-size:40px;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#joindiscord {
+    border: 0px;
+    background: black;
+    color:white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+#joindiscord:hover {
+    transform: translateY(-1px);
+    background-color: #877EE5;
+    box-shadow: 0px 5px 10px gray;
+}
+
+#joindiscord:active {
+    transform: translateY(2px);
+}
+
+#footer {
+    background-color: #C5B797;
+    height: 70px;
+    font-family: small_Euclid, sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Euclid;
+    src:url(fonts/Euclid\ Medium.ttf)
+}
+
+@font-face {
+    font-family: small_Euclid;
+    src:url(fonts/Euclid.ttf)
+}
